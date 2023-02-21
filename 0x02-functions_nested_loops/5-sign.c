@@ -6,9 +6,7 @@
  */
 
 int print_sign(int n)
-
 {
-
 	int numz;
 
 
