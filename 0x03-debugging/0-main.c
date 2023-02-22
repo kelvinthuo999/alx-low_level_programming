@@ -2,9 +2,6 @@
 
 /**
  * main - check if a number is positive
- *
- * @i: integer to be checked
- *
  * Return: 0 on success
  */
 
