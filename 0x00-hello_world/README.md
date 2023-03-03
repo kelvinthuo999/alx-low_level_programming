@@ -8,5 +8,5 @@
 5-printf.c            -       using the printf functions
 6-size.c              -       printing the size of different data types on which the source code is being compiled
 100-intel             -       generate assembly code(intel syntax) for C source file
-101-qoute.c           -       print a qoute
+101-qoute.c           -       print a qoute using the write function
 </pre>
