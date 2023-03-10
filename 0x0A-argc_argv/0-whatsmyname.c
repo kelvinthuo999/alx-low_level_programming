@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * main - print name of program
  * @argc: variable containing number of arguments
- * @argv: character variable holding the string values of argc
- * @Return: 0 on success
+ * @argv: character variable with the string values of argc
+ * @Return: Always 0(success)
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", argv[argc - 1]);
 	return (0);
 }
