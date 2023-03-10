@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main -  writes program name
-* @argc: arguement count
+* @argc: argument count
 * @argv: array of pointers to CLI arguement
 * Return: 0
 **/
