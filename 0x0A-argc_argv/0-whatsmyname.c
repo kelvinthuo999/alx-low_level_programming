@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include "main.h"
-
 /**
- * main - print name of program
- * @argc: variable containing number of arguments
- * @argv: character variable with the string values of argc
- * @Return: Always 0(success)
- */
-
+* main -  writes program name
+* @argc: arguement count
+* @argv: array of pointers to CLI arguement
+* Return: 0
+**/
 int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc - 1]);
