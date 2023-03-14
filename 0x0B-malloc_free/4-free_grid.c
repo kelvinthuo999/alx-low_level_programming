@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * free_grid - deallocates memory
