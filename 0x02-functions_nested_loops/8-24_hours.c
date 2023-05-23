@@ -9,7 +9,7 @@ void jack_bauer(void)
 	int hour, min;
 
 	/* Nested for loops to print out the time */
-	for (hour = 0; hour < 23; hour++)	/* used to iterate over the hours */
+	for (hour = 0; hour < 24; hour++)	/* used to iterate over the hours */
 	{
 		for (min = 0; min < 60; min++)	/* used to iterate over the mins */
 		{
