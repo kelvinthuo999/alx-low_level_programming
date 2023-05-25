@@ -13,7 +13,7 @@ int main(void)
 	/* using a combination of if statements and loops to complete task */
 	for (num = 1; num <= 100; num++)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
+		if (num % 15 == 0)
 		{
 			printf("FizzBuzz");
 		}
@@ -27,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d", num);
 		}
 
 		if (num != 100)
