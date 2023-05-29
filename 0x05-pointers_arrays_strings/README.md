@@ -1,4 +1,4 @@
-			# Pointers #
+#				 Pointers
 <pre>
 -> A pointer is basically a variable that holds the address of another variable.
 -> A pointer not assigned any value is known as a NULL pointer.
