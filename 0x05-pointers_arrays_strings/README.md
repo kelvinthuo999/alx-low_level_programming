@@ -1,12 +1,12 @@
-#	NOTES
-##				 Pointers
+#	NOTES #
+##				 Pointers ##
 <pre>
 -> A pointer is basically a variable that holds the address of another variable.
 -> A pointer not assigned any value is known as a NULL pointer.
 -> Ampersand is used to access the memory address of a variable.
 -> Dereference operator is used to access the value stored in the address held by a pointer.
 <pre>
-##				Arrays
+##				Arrays ##
 <pre>
 -> An array is a collection of similar data types stored at contiguous memory locations.
 -> Each element in the array is of similar type and takes up equal memory space.
@@ -14,7 +14,7 @@
 -> Indexing starts with zero.
 -> Once you declare an array, you cannot change the size and type.
 <pre>
-##				Strings
+##				Strings ##
 <pre>
 -> Strings are one-dimensional arrays of characters terminated by a null character.
 -> String literal is a sequence of characters enclosed by double quotes.
