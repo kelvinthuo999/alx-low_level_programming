@@ -29,15 +29,3 @@ This section outlines the tasks to be completed. Please refer to the individual 
 3. Task 3: [Provide a brief description of Task 3]
 4. Task 4: [Provide a brief description of Task 4]
 
-Please ensure that you refer to the specific task files for comprehensive instructions and guidance on completing each task.
-
-## License
-This project is licensed under the [insert license name] license. Please see the [LICENSE](LICENSE) file for more details.
-
-## Contributions
-We welcome contributions to this project. If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING](CONTRIBUTING.md) file.
-
-## Contact
-If you have any questions or need further assistance, please contact us at [insert contact email].
-
-Feel free to update and modify this README file as necessary to accurately represent your project and its requirements.
