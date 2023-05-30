@@ -29,11 +29,11 @@ The main task is to update the value pointed to by a pointer to 98. This is achi
 ```
 [1-swap.c](./1-swap.c)
 ```
-A new technique is used to swap values held two different variables.
-First, the value held in the first variable is updated by adding up both the values.
-Secondly, the value of the second variable is updated by deducting the original value of the second variable from the total sum
-of both values. This in essence updates the value of the second variable with the value of the first variable.
-Lastly, the value of the first variable is updated by deducting the new value of the second variable from the total sum of both values
+- A new technique is used to swap values held two different variables.
+- First, the value held in the first variable is updated by adding up both the values.
+- Secondly, the value of the second variable is updated by deducting the original value of the second variable from the total sum
+- of both values. This in essence updates the value of the second variable with the value of the first variable.
+- Lastly, the value of the first variable is updated by deducting the new value of the second variable from the total sum of both values
 which is currently held by the first variable.
 ```
 [2-strlen.c](./2-strlen.c)
@@ -64,11 +64,41 @@ until a null character is reached.
 ```
 - Main task is to reverse a string.
 - The length of the string is determined.
+- Another variable is declared to hold character as the are swapped from the first position
+to the last.
+- A newline character is added.
+```
 
 [6-puts2.c](./6-puts2.c)
+```
+- Main task is to print every other character of a string.
+- A while loop is used to traverse the string while printing.
+- An if statement is added to identify characters occupying the odd index in the string array.
+- A newline character is added.
+```
 
 [7-puts_half.c](./7-puts_half.c)
+```
+- The main task is to print out the last half of a string.
+- The length of the string is determined.
+- An if statement is added to handle cases that strings have an odd number length.
+- The length of the string is halved and the result is used as the starting index 
+when using the while loop to traverse and print out the string.
+```
 
 [8-print_array.c](./8-print_array.c)
+```
+- Main task is to print every element of an array.
+- A while loop is introduced to traverse the array while printing to the std output.
+- A comma is added at every printout apart from the last iteration to space out the output.
+- A newline character is added.
+```
 
 [9-strcpy.c](./9-strcpy.c)
+```
+- Main task is copy contents of one array to a new array.
+- First, the length of the source array is determined.
+- Secondly, a while loop is used to duplicate every element of the source array 
+to the destination array.
+- Finally, the destination array is returned to the calling function.
+```
