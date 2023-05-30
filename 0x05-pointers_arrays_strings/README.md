@@ -22,9 +22,11 @@ This README file provides an overview of important concepts related to pointers,
 - The string.h header file contains many functions for manipulating null-terminated strings.
 
 ## Tasks
-This section outlines the tasks to be completed. Please refer to the individual task files for more details on each task.
 
-1. Task 1: [Provide a brief description of Task 1]
+[0-reset_to_98.c](./0-reset_to_98.c)
+```
+The main task is to update the value pointed to by a pointer to 98. This is achieved by first dereferencing the pointer.
+``` 
 2. Task 2: [Provide a brief description of Task 2]
 3. Task 3: [Provide a brief description of Task 3]
 4. Task 4: [Provide a brief description of Task 4]
