@@ -24,9 +24,11 @@ This README file provides an overview of important concepts related to pointers,
 ## Tasks
 
 [0-reset_to_98.c](./0-reset_to_98.c)
+```
 The main task is to update the value pointed to by a pointer to 98. This is achieved by first dereferencing the pointer. 
 ```
 [1-swap.c](./1-swap.c)
+```
 A new technique is used to swap values held two different variables.
 First, the value held in the first variable is updated by adding up both the values.
 Secondly, the value of the second variable is updated by deducting the original value of the second variable from the total sum
