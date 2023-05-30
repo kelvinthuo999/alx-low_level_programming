@@ -37,12 +37,33 @@ Lastly, the value of the first variable is updated by deducting the new value of
 which is currently held by the first variable.
 ```
 [2-strlen.c](./2-strlen.c)
+```
+- The main task is to obtain the length of a string.
+- This is achieved by declaring a new variable to stand in place of the index in the string array.
+- A while loop is used to traverse the string until a null character is encountered while incrementing the index value.
+- The last value of the index represents the lenght of the string.
+```
 
 [3-puts.c](./3-puts.c)
+```
+- First an index is declared to help traverse the string which is basically an array.
+- A while loop is used to traverse the string while using the putchar function to print out every character encountered
+until a null character is reached.
+- A newline character is added to move the cursor to a new line.
+```
 
 [4-print_rev.c](./4-print_rev.c)
+```
+- Main task is to print a string in reverse.
+- First, the length of the string is obtained.
+- Secondly, a  while loop prints out every character to std output starting from the last character that is not the null character.
+- Lastly, a newline character is added.
+```
 
 [5-rev_string.c](./5-rev_string.c)
+```
+- Main task is to reverse a string.
+- The length of the string is determined.
 
 [6-puts2.c](./6-puts2.c)
 
