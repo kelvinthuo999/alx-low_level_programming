@@ -13,14 +13,14 @@ char *_strncpy(char *dest, char *src, int n)
 	/* variable declaration and initialization */
 	int index = 0;
 
-	/* copy characters from src to dest until n bytes or null terminator is reached */
+	/* copy characters from src to dest until n bytes or null terminator */
 	while (index < n && src[index] != '\0')
 	{
 		dest[index] = src[index];
 		index++;
 	}
 
-	/* If the number of characters copied is less than n, pad remaining bytes with null terminator */
+	/* pad remaining bytes with null terminator */
 	while (index < n)
 	{
 		dest[index] = '\0';
