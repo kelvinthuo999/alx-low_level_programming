@@ -16,7 +16,7 @@
 - %s is the placeholder used to print a string using printf function.
 - String literals are stored as an array of characters.
 - printf function always expects a string literal as argument.
-```
+
 
 # TASKS
 
