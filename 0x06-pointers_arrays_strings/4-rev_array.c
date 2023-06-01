@@ -11,11 +11,10 @@
 
 void reverse_array(int *a, int n)
 {
+	/* variable declaration */
 	int start, end, temp;
 
-	start = 0;
-	end = n - 1;
-
+	/* for loop to reverse the array */
 	for (start = 0, end = n - 1; start < end; start++, end--)
 	{
 		temp = a[start];
