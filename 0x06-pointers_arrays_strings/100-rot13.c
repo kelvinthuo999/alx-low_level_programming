@@ -15,7 +15,8 @@ char *rot13(char *s)
 	for (index1 = 0; s[index1] != '\0'; index1++)
 	{
 		/* Check if the character is alphabetical */
-		if ((s[index1] >= 'a' && s[index1] <= 'z') || (s[index1] >= 'A' && s[index1] <= 'Z'))
+		if ((s[index1] >= 'a' && s[index1] <= 'z')
+				|| (s[index1] >= 'A' && s[index1] <= 'Z'))
 		{
 			/* Iterate through the rot13 encoding arrays */
 			for (index2 = 0; index2 < 52; index2++)
@@ -33,4 +34,3 @@ char *rot13(char *s)
 
 	return (s);  /* Return the encoded string */
 }
-
