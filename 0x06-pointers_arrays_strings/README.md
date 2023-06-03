@@ -19,5 +19,33 @@
 
 
 # TASKS
+[0-strcat.c](./0-strcat.c)
+```
+- The main task was to develop a function that is capable of concatenating two strings
+  and append a null byte at the end.
+- Simple pseudocode:
+  - Take two INPUT
+  - Create a variable to store the starting position of the destination string
+  - Use a WHILE loop to move the destination pointer to the end of the string
+  - Use another WHILE loop to copy source string to the end of the destination string
+  - Append a NULL character at the end
+  - Return the starting position of the concatenated string
 
- 
+[1-strncat.c](./1-strncat.c)
+```
+
+[2-strncpy.c](./2-strncpy.c)
+```
+
+[3-strcmp.c](./3-strcmp.c)
+```
+[4-rev_array.c](./4-rev_array.c)
+```
+[5-string_toupper.c](./5-string_toupper.c)
+```
+
+[6-cap_string.c](./6-cap_string.c)
+```
+
+[7-leet.c](./7-leet.c)
+``` 
