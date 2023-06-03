@@ -30,22 +30,44 @@
   - Use another WHILE loop to copy source string to the end of the destination string
   - Append a NULL character at the end
   - Return the starting position of the concatenated string
+```
 
 [1-strncat.c](./1-strncat.c)
+```
+- The main task is to write a function that concatenates two strings
+  and only uses n bytes from the source string.
+- The logic is similar to the first task's code. The only difference
+  only occurs when copying the source code to the destination code.
+  You can only copy to the nth byte and the string has not reached
+  the nth byte.
 ```
 
 [2-strncpy.c](./2-strncpy.c)
 ```
 
+```
 [3-strcmp.c](./3-strcmp.c)
 ```
+
+
+```
+
 [4-rev_array.c](./4-rev_array.c)
 ```
+
+```
 [5-string_toupper.c](./5-string_toupper.c)
+```
+
 ```
 
 [6-cap_string.c](./6-cap_string.c)
 ```
 
+```
+
 [7-leet.c](./7-leet.c)
+
 ``` 
+
+```
