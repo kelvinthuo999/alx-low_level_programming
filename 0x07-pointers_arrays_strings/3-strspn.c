@@ -6,37 +6,31 @@
  * @accept: accepted characters
  *
  * Description: gets the length of a prefix substring
- *              consisting only of bytes from accept
- *
- * Return: number of bytes in the initial segment of s
- *         consisting only of bytes from accept
+ * Return: num of bytes in the initial seg of s
+ * consisting only of bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int len = 0;
-	unsigned int idx = 0;
+	unsigned int i = 0, j = 0;
 
-	/* Iterate through the string s */
-	while (s[len] != '\0')
+	while (s[i])
 	{
-		/* Iterate through the accept string */
-		while (accept[idx] != '\0')
+		j = 0;
+		while (accept[j])
 		{
-			/* Check if the current character matches */
-			if (s[len] == accept[idx])
+			if (s[i] == accept[j])
 			{
 				break;
 			}
-
-			idx++;
+			j++;
 		}
-		/* Break if no match is found in accept */
-		if (accept[j] == '\0')
+		if (!accept[j])
 		{
 			break;
 		}
-		len++;
+		i++;
 	}
-	return (len);
+	return (i);
 }
+
