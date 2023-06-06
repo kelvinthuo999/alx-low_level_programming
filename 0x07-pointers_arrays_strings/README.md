@@ -42,3 +42,59 @@
 
 # TASKS
 
+[0-memset.c](./0-memset.c)
+```
+- Main task is to fill memory with constant byte.
+- Simple psuedocode:
+	- Declare a POINTER to iterate over the memory area.
+	- Use a WHILE loop to iterate over the memory area 
+	  while filling every area with byte b.
+	- Return pointer to the memory area.
+
+```
+[1-memcpy.c](./1-memcpy.c)
+
+```
+- Main task is to copy memory area.
+- Simple psuedocode:
+	- Store the address of the destination area.
+	- Use a WHILE loop to iterate over the src and dest while incrementing at each point.
+	- Return pointer to the dest memory area.
+```
+[2-strchr.c](./2-strchr.c)
+```
+- The main task is to create a function to locate a string.
+-
+```
+[3-strspn.c](./3-strspn.c)
+```
+
+- The main task is to get the length of a prefix substring.
+
+```
+[4-strpbrk.c](./4-strpbrk.c)
+```
+
+- The function created is supposed to search a string for any of a set of bytes.
+
+```
+[5-strstr.c](./5-strstr.c)
+```
+
+- The main task is to create a function that locates a substring.
+
+```
+[7-print_chessboard.c](./7-print_chessboard.c)
+```
+- Main task is to develop a function that prints the cheeseboard.
+
+```
+[8-print_diagsums.c](./8-print_diagsums.c)
+```
+
+- Here is a function that prints the sum of the two diagonals of a square matrix of integers.
+- Below is the psuedocode:
+                                                                    
+
+
+```
