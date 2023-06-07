@@ -5,6 +5,7 @@
  * @n: the number to compute the square root of
  * Return: the square root of n, or -1 if it does not have a natural square root
  */
+int sqrt_helper(int n, int start, int end);
 int _sqrt_recursion(int n)
 {
     if (n < 0)
@@ -22,12 +23,11 @@ int _sqrt_recursion(int n)
  */
 int sqrt_helper(int n, int start, int end)
 {
-    if (start > end)
-        return -1;
-
     int mid = start + (end - start) / 2;
     int square = mid * mid;
-
+    if (start > end)
+        return -1;
+    
     if (square == n)
         return mid;
     else if (square < n)
