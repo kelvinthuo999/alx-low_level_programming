@@ -8,15 +8,34 @@
  */
 int _strlen(char *s)
 {
-	int length = 0;
+    if (*s == '\0')
+    {
+        return 0;
+    }
+    return 1 + _strlen(s + 1);
+}
 
-	while (*s)
-	{
-		length++;
-		s++;
-	}
+/**
+ * is_palindrome_recursive - Check if a string is a palindrome recursively
+ * @s: Pointer to a string
+ * @start: Start index of the string
+ * @end: End index of the string
+ *
+ * Return: 1 if the string is a palindrome, 0 otherwise
+ */
+int is_palindrome_recursive(char *s, int start, int end)
+{
+    if (start >= end)
+    {
+        return 1; /* Palindrome */
+    }
 
-	return (length);
+    if (s[start] != s[end])
+    {
+        return 0; /* Not a palindrome */
+    }
+
+    return is_palindrome_recursive(s, start + 1, end - 1);
 }
 
 /**
@@ -27,19 +46,7 @@ int _strlen(char *s)
  */
 int is_palindrome(char *s)
 {
-	int length = _strlen(s);
-	int start = 0;
-	int end = length - 1;
-
-	while (start < end)
-	{
-		if (s[start] != s[end])
-		{
-			return (0); /* Not a palindrome */
-		}
-		start++;
-		end--;
-	}
-
-	return (1); /* Palindrome */
+    int length = _strlen(s);
+    return is_palindrome_recursive(s, 0, length - 1);
 }
+
