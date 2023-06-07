@@ -54,6 +54,20 @@
 	1. Take a pointer to a string as the INPUT.
 	2. Set the base condition:
 		- IF statement to RETURN 0 if the string is only the NULL character.
+	3. Write the recursive function:
 		- ELSE statement to call the function recursively until the NULL character is reached
 		  while incrementing the value of the length with each function call.
 ``` 
+[3-factorial.c](./3-factorial.c)
+```
+- factorial is a function with a simple task to evaluate the factorial of a given number.
+- Pseudocode to implement the task:
+	function factorial(n)
+		if n equals 1 then
+        		return 1
+    		else if n is less than 0 then
+        		return -1
+	    	else
+       			 return n multiplied by factorial(n - 1)
+```
+
