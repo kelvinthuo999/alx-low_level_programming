@@ -5,6 +5,7 @@
 int main(int argc, char *argv[])
 {
     int sum = 0;
+    int i, j;
 
     if (argc == 1)
     {
@@ -12,10 +13,10 @@ int main(int argc, char *argv[])
         return (0);
     }
 
-    for (int i = 1; i < argc; i++)
+    for (i = 1; i < argc; i++)
     {
-        // Check if each character in the argument is a digit
-        for (int j = 0; argv[i][j] != '\0'; j++)
+        /* Check if each character in the argument is a digit */
+        for (j = 0; argv[i][j] != '\0'; j++)
         {
             if (!isdigit(argv[i][j]))
             {
@@ -24,7 +25,7 @@ int main(int argc, char *argv[])
             }
         }
         
-        // Convert the argument to an integer and add it to the sum
+        /* Convert the argument to an integer and add it to the sum */
         sum += atoi(argv[i]);
     }
 
