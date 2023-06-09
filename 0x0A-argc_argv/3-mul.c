@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error: Two arguments are required.\n");
+		printf("Error\n");
 		return (1);
 	}
 
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	result = multiply(num1, num2);
 
-	printf("Product: %d\n", result);
+	printf("%d\n", result);
 
 	return (0);
 }
