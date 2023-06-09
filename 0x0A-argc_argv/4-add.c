@@ -1,41 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
-/**
- * main - Entry point of the program
- * @argc: Argument count
- * @argv: Argument vector
- *
- * Description: Adds all positive numbers and prints the sum.
- * Return: (0) for success, (1) for error
- */
 int main(int argc, char *argv[])
 {
-	int idx, num;
-	int sum = 0;
-	int error = 0;
+    int sum = 0;
 
-	/* Loop through the arguments */
-	for (idx = 1; idx < argc; idx++)
-	{
-		num = atoi(argv[idx]);
+    if (argc == 1)
+    {
+        printf("0\n");
+        return (0);
+    }
 
-		/* Check if the number is positive */
-		if (num <= 0)
-		{
-			error = 1;
-			break;
-		}
-		sum += num;
-	}
+    for (int i = 1; i < argc; i++)
+    {
+        // Check if each character in the argument is a digit
+        for (int j = 0; argv[i][j] != '\0'; j++)
+        {
+            if (!isdigit(argv[i][j]))
+            {
+                printf("Error\n");
+                return (1);
+            }
+        }
+        
+        // Convert the argument to an integer and add it to the sum
+        sum += atoi(argv[i]);
+    }
 
-	/* Check if any non-positive number was detected */
-	if (error)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	/* Print the sum of positive numbers */
-	printf("%d\n", sum);
-	return (0);
+    printf("%d\n", sum);
+    return (0);
 }
