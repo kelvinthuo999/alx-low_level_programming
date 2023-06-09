@@ -11,14 +11,14 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int idx, num;
 	int sum = 0;
 	int error = 0;
 
 	/* Loop through the arguments */
-	for (i = 1; i < argc; i++)
+	for (idx = 1; idx < argc; idx++)
 	{
-		int num = atoi(argv[i]);
+		int num = atoi(argv[idx]);
 
 		/* Check if the number is positive */
 		if (num <= 0)
@@ -26,7 +26,6 @@ int main(int argc, char *argv[])
 			error = 1;
 			break;
 		}
-
 		sum += num;
 	}
 
@@ -36,7 +35,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	/* Print the sum of positive numbers */
 	printf("%d\n", sum);
 	return (0);
