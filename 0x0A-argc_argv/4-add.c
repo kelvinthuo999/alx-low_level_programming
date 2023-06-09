@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	/* Loop through the arguments */
 	for (idx = 1; idx < argc; idx++)
 	{
-		int num = atoi(argv[idx]);
+		num = atoi(argv[idx]);
 
 		/* Check if the number is positive */
 		if (num <= 0)
