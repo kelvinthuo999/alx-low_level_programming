@@ -3,6 +3,9 @@
 
 /**
  * string_nconcat - Concatenates two strings
+ * @s1: first string to be concatenated
+ * @s2: second string to be concatenated
+ * @n: number of bytes from the second string to be used
  * Return: Pointer to the address of the concatenated string
  */
 
