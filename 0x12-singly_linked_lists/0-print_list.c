@@ -21,7 +21,7 @@ size_t print_list(const list_t *h)
 		if (current->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%zu] %s\n", current->len, current->str);
+			printf("[%i] %s\n", current->len, current->str);
 
 		current = current->next;
 		node_count++;
