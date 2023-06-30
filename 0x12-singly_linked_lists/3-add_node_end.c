@@ -15,7 +15,7 @@ unsigned int _strlen(const char *str)
 	while (*str != '\0')
 	{
 		str++;
-		len++;
+		idx++;
 	}
 	return (idx);
 }
