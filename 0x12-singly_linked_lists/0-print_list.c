@@ -11,11 +11,6 @@ size_t print_list(const list_t *h)
 	/* variable declaration and initialization */
 	size_t idx = 0;
 
-	/* check if head is NULL */
-	if (h == NULL)
-	{
-		return (0);
-	}
 	/* while loop to traverse the list */
 	while (h != NULL)
 	{

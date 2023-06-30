@@ -1,5 +1,10 @@
 #include "lists.h"
 
+/**
+ * strlen - determine the length of the string
+ * @str: string to be evaluated
+ * Return: length of the string
+ */
 size_t _strlen(const char *str);/*determine length of a string*/
 
 /**
@@ -33,6 +38,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (*head);
 }
+
 size_t _strlen(const char *str)
 {
 	/* variable declaration and initialization */
