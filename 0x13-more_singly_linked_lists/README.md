@@ -10,3 +10,9 @@
 - Loops are used to traverse the list.
 - Singly linked lists can only be traversed in one direction(moving forward).
 
+# TASKS
+[0-print_listint.c](./0-print_listint.c)
+```
+- A simple task to print all the elements of a singly linked list.
+
+```
