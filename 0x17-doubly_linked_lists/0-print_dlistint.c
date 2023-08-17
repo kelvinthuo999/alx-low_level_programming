@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * print_dlistint - Prints all elements of a doubly linked list.
